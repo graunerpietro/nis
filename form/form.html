@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<?php    
+if(isset($_POST['submit'])){ //check if form was submitted
+  $input = $_POST['text']; //get input text
+  $message = "Success! You entered: ".$input;
+}    
+?>
+
+<body>
+<form action="">
+  Uporabniško ime:<br>
+  <input type="text" name="uporabnisko ime" value="">
+  <br>
+  Geslo:<br>
+  <input type="password" name="password" value="">
+  <br><br>
+  <input type="submit" value="Pošlji">
+</form> 
+</body>
+</html>
